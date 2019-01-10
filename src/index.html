@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Space</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/lib/three.min.js"></script>
+    <script src="js/lib/dat.gui.min.js"></script>
+    <script src="js/lib/LegacyJSONLoader.js"></script>
+    <script src="js/lib/TDSLoader.js"></script>
+    <script src="js/lib/OrbitControls.js"></script>
+
+    <script src="js/workFile/AllParams.js"></script>
+    <script src="js/workFile/CreatePlace.js"></script>
+    <script src="js/workFile/CreateSpaceships.js"></script>
+    <script src="js/workFile/FunctionsForInteractionWithTheGame.js"></script>
+
+    <!--<script src="js/CreateFunc.js"></script>-->
+</head>
+<body>
+    <div>
+        <input type="button" value="P" id="position" onclick="newPositionCamera(this)"/>
+    </div>
+    <div>
+        <input type="button" value="C" id="createShip" onclick="newShip(this)"/>
+    </div>
+    <div>
+        <button type="button" id="fight"><img id="fightImg" src="img/fight.jpg"/></button>
+        <!--<input type="button" value="F" id="createShip" onclick=""/>-->
+    </div>
+    <canvas id="canvas"></canvas>
+</body>
+</html>
+
+
+
+
+
+
